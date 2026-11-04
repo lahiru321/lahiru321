@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1120"/>
+      <stop offset="1" stop-color="#0F2A2E"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#10B981"/>
+      <stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#1E293B" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow" cx="0.85" cy="0.3" r="0.5">
+      <stop offset="0" stop-color="#10B981" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#10B981" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <style>
+    .t { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: Consolas, 'SF Mono', Menlo, monospace; }
+    .blink { animation: blink 1.1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .float { animation: float 6s ease-in-out infinite; }
+    @keyframes float { 50% { transform: translateY(-6px); } }
+  </style>
+
+  <rect width="1200" height="300" rx="16" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="16" fill="url(#grid)" opacity="0.6"/>
+  <rect width="1200" height="300" rx="16" fill="url(#glow)"/>
+
+  <!-- left: name and role -->
+  <text x="70" y="105" class="mono" font-size="18" fill="#10B981">~/lahiru $ whoami<tspan class="blink"> ▌</tspan></text>
+  <text x="70" y="168" class="t" font-size="56" font-weight="700" fill="#F8FAFC">Lahiru Jeewantha</text>
+  <rect x="70" y="190" width="120" height="4" rx="2" fill="url(#accent)"/>
+  <text x="70" y="232" class="t" font-size="22" fill="#94A3B8">Full-Stack Developer · Java &amp; Spring Boot · TypeScript &amp; Next.js</text>
+
+  <!-- right: code card -->
+  <g class="float">
+    <rect x="860" y="60" width="280" height="180" rx="12" fill="#0B1120" stroke="#1E293B"/>
+    <circle cx="884" cy="82" r="5" fill="#F87171"/>
+    <circle cx="902" cy="82" r="5" fill="#FBBF24"/>
+    <circle cx="920" cy="82" r="5" fill="#34D399"/>
+    <text x="884" y="120" class="mono" font-size="14" fill="#38BDF8">const<tspan fill="#F8FAFC"> stack = {</tspan></text>
+    <text x="900" y="145" class="mono" font-size="14" fill="#94A3B8">back: <tspan fill="#34D399">"Spring Boot"</tspan>,</text>
+    <text x="900" y="168" class="mono" font-size="14" fill="#94A3B8">front: <tspan fill="#34D399">"Next.js"</tspan>,</text>
+    <text x="900" y="191" class="mono" font-size="14" fill="#94A3B8">db: <tspan fill="#34D399">"Postgres"</tspan>,</text>
+    <text x="884" y="216" class="mono" font-size="14" fill="#F8FAFC">};</text>
+  </g>
+</svg>
