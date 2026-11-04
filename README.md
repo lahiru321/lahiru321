@@ -18,7 +18,6 @@
 
 - 💼 Full-stack developer at **Lumora Technologies**
 - ⚙️ Java & Spring Boot on the back, TypeScript & Next.js on the front, Postgres underneath
-- 🖥️ Currently building an **offline-first desktop POS** with Electron and a local database
 - 🤖 Exploring AI tooling: Word add-ins, content platforms and multi-agent coding apps
 
 ## 🛠️ Tech stack
