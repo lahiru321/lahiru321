@@ -89,14 +89,11 @@ Model that predicts crop yield from historical yield data.
 ## 📈 GitHub stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=lahiru321&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
-  <img height="165" src="https://streak-stats.demolab.com?user=lahiru321&theme=tokyonight&hide_border=true" />
+  <img height="165" src="./cards/stats.svg" alt="GitHub stats" />
+  <img height="165" src="https://streak-stats.demolab.com?user=lahiru321&theme=tokyonight&hide_border=true" alt="GitHub streak" />
 </p>
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lahiru321&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
-</p>
-<p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=lahiru321&theme=tokyo-night&hide_border=true&area=true" />
+  <img height="165" src="./cards/top-langs.svg" alt="Most used languages" />
 </p>
 
 ## 🐍 Contribution snake
