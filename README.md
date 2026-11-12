@@ -16,7 +16,7 @@
 
 ## 👋 About me
 
-- 💼 Full-stack developer at **Lumora Technologies**
+- 💼 Full-stack and AI developer 
 - ⚙️ Java & Spring Boot on the back, TypeScript & Next.js on the front, Postgres underneath
 - 🤖 Exploring AI tooling: Word add-ins, content platforms and multi-agent coding apps
 
